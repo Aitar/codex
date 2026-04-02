@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deploy Align Server Skills"
+  short_description: "Deploy, align, and tune local AI services"
+  default_prompt: "Use $deploy-align-server-skills to deploy or align a local inference service and avoid common environment and performance pitfalls."

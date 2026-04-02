@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lmdeploy Latest"
+  short_description: "Official LMDeploy Docs (latest) docs references"
+  default_prompt: "Answer LMDeploy Docs (latest) questions using bundled official documentation references."

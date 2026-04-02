@@ -1,0 +1,16 @@
+.DS_Store
+
+# 忽略临时文件
+archived_sessions/
+tmp/
+.tmp/
+cache/
+log/
+sessions/
+sqlite/
+history.jsonl
+models_cache.json
+shell_snapshots/
+
+*.sqlite*
+*auth.json*

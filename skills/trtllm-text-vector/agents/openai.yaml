@@ -1,0 +1,4 @@
+interface:
+  display_name: "TRTLLM Text Vector"
+  short_description: "Build and optimize TRT-LLM text vector services"
+  default_prompt: "Use $trtllm-text-vector to design, build, or debug a TRT-LLM text-vector pipeline."

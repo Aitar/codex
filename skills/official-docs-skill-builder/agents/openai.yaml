@@ -1,0 +1,4 @@
+interface:
+  display_name: "Official Docs Skill Builder"
+  short_description: "Crawl official docs and output skill-ready references."
+  default_prompt: "Create or update a Codex skill by crawling official documentation pages and converting them into curated references."

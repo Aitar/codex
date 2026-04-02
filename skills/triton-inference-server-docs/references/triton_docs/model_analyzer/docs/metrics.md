@@ -1,0 +1,72 @@
+* [Model Analyzer](../../perf_benchmark/model_analyzer.md)
+* Model...
+
+# Model Analyzer Metrics[#](#model-analyzer-metrics "Link to this heading")
+
+Model Analyzer collects a variety of metrics. Shown below is a list of the
+metrics that can be collected using the Model Analyzer, as well as their metric
+tags, which are used in various places to configure Model Analyzer.
+
+## Perf Analyzer Metrics[#](#perf-analyzer-metrics "Link to this heading")
+
+These metrics come from the perf analyzer and are parsed and processed by the
+model analyzer. See the [perf analyzer
+docs](../../perf_analyzer/README.md)
+for more info on these
+
+* `perf_throughput`: The number of inferences per second measured by the perf
+  analyzer.
+* `perf_latency_avg`: The average latency as measured by perf analyzer.
+* `perf_latency_p90`: The p90 latency as measured by perf analyzer.
+* `perf_latency_p95`: The p95 latency as measured by perf analyzer.
+* `perf_latency_p99`: The p99 latency as measured by perf analyzer.
+* `perf_client_response_wait`: The time spent waiting for a response from the
+  server, after an inference request has been sent.
+* `perf_client_send_recv`: The total amount of time it takes the client to send
+  a request, plus the amount of time it takes for the client to receive the
+  response. (Not including network RTT).
+* `perf_server_queue`: The average time spent in the inference schedule queue by
+  a request waiting for an instance of the model to become available.
+* `perf_server_compute_input`: Time needed to copy data to the GPU from input
+  buffers
+* `perf_server_compute_infer`: The average time spent performing the actual
+  inference.
+* `perf_server_compute_output`: Time needed to copy data from the GPU to output
+  buffers.
+
+## GPU metrics[#](#gpu-metrics "Link to this heading")
+
+These are metrics captured by the tritonserver. They are recorded for each GPU
+in fixed intervals during perf analyzer runs and then aggregated across all the
+records for a run.
+
+* `gpu_used_memory`: The maximum memory used by the GPU
+* `gpu_free_memory`: The maximum memory available in the GPU
+* `gpu_utilization`: The average utilization of the GPU
+* `gpu_power_usage`: The average power usage of the GPU
+
+## CPU metrics[#](#cpu-metrics "Link to this heading")
+
+These metrics are captured using `psutil` or `docker stats`, and are also
+recorded and aggregated over fixed intervals during a perf analyzer run.
+
+* `cpu_used_ram`: The total amount of memory used by all CPUs
+* `cpu_available_ram`: The total amount of available CPU memory.
+
+**Warning**: Collecting CPU metrics might affect model inference metrics such as throughput and latency. By default, CPU metrics are not collected. To collect CPU metrics, set `collect_cpu_metrics` flag to `true`, see [Configuring Model Analyzer](config.md) for details.
+
+## Additional tags for output headers[#](#additional-tags-for-output-headers "Link to this heading")
+
+These tags are used in options like `server_output_fields`,
+`inference_output_fields`, and `gpu_output_fields` to control parameters (not
+just metrics) that should be displayed in the output tables.
+
+* `model_name`: Name of the model
+* `batch_size`: Batch size used for measurement
+* `concurrency`: Client request conccurency used for measurement
+* `model_config_path`: The path to the model config
+* `instance_group`: The number/type of instances
+* `satisfies_constraints`: `Yes` if this measurement satisfies constraints, `No`
+  otherwise.
+* `gpu_uuid`: The UUID of the GPU this measurement was taken on.
+

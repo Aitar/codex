@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vllm 0 15 0"
+  short_description: "Official vLLM v0.15.0 Docs docs references"
+  default_prompt: "Answer vLLM v0.15.0 Docs questions using bundled official documentation references."

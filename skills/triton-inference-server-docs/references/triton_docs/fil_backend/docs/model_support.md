@@ -1,0 +1,93 @@
+* Model...
+
+# Model Support and Limitations[#](#model-support-and-limitations "Link to this heading")
+
+The FIL backend is designed to accelerate inference for **tree-based models**.
+If the model you are trying to deploy is not tree-based, consider using one of
+Tritonâs other backends.
+
+## Frameworks[#](#frameworks "Link to this heading")
+
+The FIL backend supports most XGBoost and LightGBM models using their native
+serialization formats. The FIL backend also supports the following model types
+from [Scikit-Learn and cuML](sklearn_and_cuml.md) using Treeliteâs checkpoint serialization format:
+
+* GradientBoostingClassifier
+* GradientBoostingRegressor
+* IsolationForest
+* RandomForestRegressor
+* ExtraTreesClassifier
+* ExtraTreesRegressor
+
+In addition, the FIL backend can perform inference on tree models from any
+framework if they are first exported to Treeliteâs checkpoint serialization
+format.
+
+## Serialization Formats[#](#serialization-formats "Link to this heading")
+
+The FIL backend currently supports the following serialization formats:
+
+* XGBoost JSON
+* XGBoost UBJSON
+* LightGBM Text
+* Treelite binary checkpoint
+
+The FIL backend does **not** support direct ingestion of Pickle files. The
+pickled model must be converted to one of the above formats before it can be
+used in Triton.
+
+## Version Compatibility[#](#version-compatibility "Link to this heading")
+
+Until version 3.0, Treelite offered no backwards compatibility
+for its checkpoint format even among minor releases. Therefore, the version
+of Treelite used to save a checkpoint had to exactly match the version used in
+the FIL backend. Starting with version 3.0, Treelite provides backwards and
+forward compatibility between minor releases.
+
+XGBoostâs JSON format also changes periodically between minor versions, and
+older versions of Treelite used in the FIL backend may not support those
+changes.
+
+The compatibility matrix for Treelite and XGBoost with the FIL backend is
+shown below:
+
+| Triton Version | Supported Treelite Version(s) | Supported XGBoost models |
+| --- | --- | --- |
+| 21.08 | 1.3.0 | XGBoost JSON <1.6 |
+| 21.09-21.10 | 2.0.0 | XGBoost JSON <1.6 |
+| 21.11-22.02 | 2.1.0 | XGBoost JSON <1.6 |
+| 22.03-22.06 | 2.3.0 | XGBoost JSON <1.6 |
+| 22.07 | 2.4.0 | XGBoost JSON <1.7 |
+| 22.08-24.02 | 2.4.0; >=3.0.0,<4.0.0 | XGBoost JSON <1.7 |
+| 24.03-24.09 | 3.9.0; >=4.0.0,<5.0.0 | XGBoost JSON 1.7+ |
+| 24.10+ | 3.9.0; >=4.0.0,<5.0.0 | XGBoost JSON 1.7+, XGBoost UBJSON 2.1+ |
+
+## Limitations[#](#limitations "Link to this heading")
+
+The FIL backend currently does not support any multi-output regression models.
+
+## Double-Precision Support[#](#double-precision-support "Link to this heading")
+
+While the FIL backend can load double-precision models, it performs all
+computations in single-precision mode. This can lead to slight differences in
+model output for frameworks like LightGBM which natively use double precision.
+Support for double-precision execution is planned for an upcoming release.
+
+## Categorical Feature Support[#](#categorical-feature-support "Link to this heading")
+
+As of version 21.11, the FIL backend includes support for models with
+categorical features (e.g. some
+[XGBoost](https://xgboost.readthedocs.io/en/stable/tutorials/categorical.md) and [LightGBM](https://lightgbm.readthedocs.io/en/latest/Advanced-Topics.md#categorical-feature-support) ) models.
+These models can be deployed just like any other model, but it is worth
+remembering that (as with any other inference pipeline which includes
+categorical features), care must be taken to ensure that the categorical
+encoding used during inference matches that used during training. If the data
+passed through at inference time does not contain all of the categories used
+during training, there is no way to reconstruct the correct mapping of
+features, so some record must be made of the complete set of categories used
+during training. With that record, categorical columns can be appropriately
+converted to float32 columns, and submitted to Triton as with any other input.
+
+For a fully-worked example of using a model with categorical features, check
+out the [introductory fraud detection notebook](https://nbviewer.org/github/triton-inference-server/fil_backend/blob/main/notebooks/categorical-fraud-detection/Fraud_Detection_Example.ipynb).
+

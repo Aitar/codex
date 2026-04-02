@@ -1,0 +1,120 @@
+* Building...
+
+# Building the FIL Backend[#](#building-the-fil-backend "Link to this heading")
+
+Triton backends are implemented as shared libraries which are conditionally
+loaded by the main Triton server process. To build the FIL backend shared
+library or simply to create a Docker image with a fresh build of the backend,
+you may follow the indicated steps.
+
+**Note**: Most users will not need to build their own copy of the FIL backend.
+These instructions are intended for developers and those who wish to make
+custom tweaks to the backend. If you are just looking for install instructions,
+follow our [installation guide](https://github.com/triton-inference-server/fil_backend/blob/main/docs/docs/install.md).
+
+## Prerequisites[#](#prerequisites "Link to this heading")
+
+The FIL backend may be built either using Docker or on the host. We
+recommend using the Dockerized build in order to simplify dependency management
+unless you have a specific need to build on the host.
+
+### Dockerized Build[#](#dockerized-build "Link to this heading")
+
+* [Docker](https://docs.docker.com/get-docker/)
+* [The NVIDIA container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.md#docker)
+
+### Host Build[#](#host-build "Link to this heading")
+
+* [CUDA toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.md#docker) (Only required for GPU-enabled builds)
+* [CMake](https://cmake.org/install/)
+* [Ninja](https://ninja-build.org/) (Optional but recommended)
+  Except for the CUDA toolkit, these dependencies can be installed via conda using the provided
+  [environment
+  file](https://github.com/triton-inference-server/fil_backend/blob/main/conda/environments/rapids_triton_dev.yml):
+
+```
+conda env create -f conda/environments/rapids_triton_dev.yml
+conda activate rapids_triton_dev
+```
+
+## Using the Build Script[#](#using-the-build-script "Link to this heading")
+
+To simplify the build process, the FIL backend provides a `build.sh` script at
+the root of the repo. For most use cases, it is sufficient to simply
+invoke the script:
+
+```
+./build.sh
+```
+
+This is a lightweight wrapper around a `docker build` command which helps
+provide the correct build arguments and variables. By default, it will build
+*both* a âserverâ image which is equivalent to the usual Triton Docker image
+and a âtestâ image whose entrypoint will invoke the FIL backendâs tests.
+
+### Build Options[#](#build-options "Link to this heading")
+
+The build script uses a number of flags and environment variables to
+control the details of what gets built and how. These options are
+summarized below:
+
+#### Flags[#](#flags "Link to this heading")
+
+* `-g`: Perform a debug build
+* `-h`: Print help test for build script
+* `--cpu-only`: Build CPU-only version of library
+* `--tag-commit`: Tag Docker images using the current git commit
+* `--no-cache`: Disable Docker cache for this build
+* `--host`: Build on host, **not** in Docker
+* `--buildpy`: Invoke Tritonâs `build.py` script to perform build.
+  **Note:** This is **not** recommended for end-users. It is included
+  primarily for testing compatibility with upstream build changes. If you must
+  invoke this option, you will need the dependencies indicated in the
+  associated conda [environment file](https://github.com/triton-inference-server/fil_backend/blob/main/conda/environments/buildpy.yml).
+
+#### Environment variables[#](#environment-variables "Link to this heading")
+
+##### Standard options[#](#standard-options "Link to this heading")
+
+* `BASE_IMAGE`: The base image for Docker images or the build image for
+  `build.py` if `--buildpy` is invoked
+* `TRITON_VERSION`: The version of Triton to use for this build
+* `SERVER_TAG`: The tag to use for the server image
+* `TEST_TAG`: The tag to use for the test image
+* `PREBUILT_IMAGE`: An existing Triton Docker image which you would like to
+  run tests against. This will build the test image on top of the indicated
+  image.
+* `RAPIDS_VERSION`: The version of RAPIDS to require for RAPIDS
+  dependencies
+
+##### Advanced options[#](#advanced-options "Link to this heading")
+
+* `USE_CLIENT_WHEEL`: If 1, the Triton Python client will be
+  installed from a wheel distributed in the Triton SDK Docker image. This
+  option is useful for ARM development, since the Triton client cannot
+  currently be installed via `pip` for ARM.
+* `SDK_IMAGE`: If set, this image will be used to provide the
+  Python client wheel. Otherwise, if `USE_CLIENT_WHEEL` is set to 1 and this
+  variable is unset, the image will be selected based on the Triton
+  version.
+* `CONDA_DEV_TAG`: A Docker image containing the development conda
+  environment. Used primarily to speed up CI; rarely invoked during
+  development.
+* `CONDA_TEST_TAG`: A Docker image containing the test conda
+  environment. Used primarily to speed up CI; rarely invoked during development
+* `TRITON_REF`: The commit ref for the Triton server repo when using
+  `--buildpy`
+* `CORE_REF`: The commit ref for the Triton core repo when using
+  `--buildpy`
+* `COMMON_REF`: The commit ref for the Triton common repo when using
+  `--buildpy`
+* `BACKEND_REF`: The commit ref for the Triton backend repo when using
+  `--buildpy`
+* `THIRDPARTY_REF`: The commit ref for the Triton third-party repo when using
+  `--buildpy`
+* `JOB_ID`: Used for CI builds to uniquely identify a particular
+  build job.
+* `BUILDPY_BRANCH`: Use this branch of the Triton server repo to
+  provide the `build.py` script if `--buildpy` is used.
+* `TREELITE_STATIC`: if set to `ON`, Treelite will be statically linked into the built binaries
+

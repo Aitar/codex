@@ -1,0 +1,1166 @@
+{
+  "generated_at_epoch": 1773218818,
+  "start_urls": [
+    "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/"
+  ],
+  "allow_domains": [
+    "nvidia.github.io"
+  ],
+  "max_pages": 140,
+  "max_depth": 4,
+  "visited_count": 154,
+  "captured_count": 140,
+  "total_removed_noise_lines": 0,
+  "pages": [
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/overview.html",
+      "title": "Overview — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/overview.md",
+      "depth": 1,
+      "word_count": 516,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/quick-start-guide.html",
+      "title": "Quick Start Guide — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/quick-start-guide.md",
+      "depth": 1,
+      "word_count": 965,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/installation/index.html",
+      "title": "Installation — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/installation/index.md",
+      "depth": 1,
+      "word_count": 81,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/installation/containers.html",
+      "title": "Pre-built release container images on NGC — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/installation/containers.md",
+      "depth": 1,
+      "word_count": 124,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/installation/linux.html",
+      "title": "Installing on Linux via pip — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/installation/linux.md",
+      "depth": 1,
+      "word_count": 734,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/installation/build-from-source-linux.html",
+      "title": "Building from Source Code on Linux — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/installation/build-from-source-linux.md",
+      "depth": 1,
+      "word_count": 1404,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_inference.html",
+      "title": "Generate text — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_inference.md",
+      "depth": 1,
+      "word_count": 194,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_inference_async.html",
+      "title": "Generate text asynchronously — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_inference_async.md",
+      "depth": 1,
+      "word_count": 219,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_inference_async_streaming.html",
+      "title": "Generate text in streaming — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_inference_async_streaming.md",
+      "depth": 1,
+      "word_count": 307,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_inference_distributed.html",
+      "title": "Distributed LLM Generation — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_inference_distributed.md",
+      "depth": 1,
+      "word_count": 249,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_guided_decoding.html",
+      "title": "Generate text with guided decoding — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_guided_decoding.md",
+      "depth": 1,
+      "word_count": 444,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_logits_processor.html",
+      "title": "Control generated text using logits processor — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_logits_processor.md",
+      "depth": 1,
+      "word_count": 720,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_multilora.html",
+      "title": "Generate text with multiple LoRA adapters — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_multilora.md",
+      "depth": 1,
+      "word_count": 590,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_sparse_attention.html",
+      "title": "Sparse Attention — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_sparse_attention.md",
+      "depth": 1,
+      "word_count": 621,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_speculative_decoding.html",
+      "title": "Speculative Decoding — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_speculative_decoding.md",
+      "depth": 1,
+      "word_count": 273,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_kv_cache_connector.html",
+      "title": "KV Cache Connector — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_kv_cache_connector.md",
+      "depth": 1,
+      "word_count": 1486,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_kv_cache_offloading.html",
+      "title": "KV Cache Offloading — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_kv_cache_offloading.md",
+      "depth": 1,
+      "word_count": 814,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_runtime.html",
+      "title": "Runtime Configuration Examples — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_runtime.md",
+      "depth": 1,
+      "word_count": 560,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_sampling.html",
+      "title": "Sampling Techniques Showcase — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_sampling.md",
+      "depth": 1,
+      "word_count": 867,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_mgmn_llm_distributed.html",
+      "title": "Run LLM-API with pytorch backend on Slurm — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_mgmn_llm_distributed.md",
+      "depth": 1,
+      "word_count": 572,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_mgmn_trtllm_bench.html",
+      "title": "Run trtllm-bench with pytorch backend on Slurm — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_mgmn_trtllm_bench.md",
+      "depth": 1,
+      "word_count": 651,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/llm_mgmn_trtllm_serve.html",
+      "title": "Run trtllm-serve with pytorch backend on Slurm — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/llm_mgmn_trtllm_serve.md",
+      "depth": 1,
+      "word_count": 546,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/aiperf_client.html",
+      "title": "Aiperf Client — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/aiperf_client.md",
+      "depth": 1,
+      "word_count": 72,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/aiperf_client_for_multimodal.html",
+      "title": "Aiperf Client For Multimodal — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/aiperf_client_for_multimodal.md",
+      "depth": 1,
+      "word_count": 86,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/curl_chat_client.html",
+      "title": "Curl Chat Client — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/curl_chat_client.md",
+      "depth": 1,
+      "word_count": 59,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/curl_chat_client_for_multimodal.html",
+      "title": "Curl Chat Client For Multimodal — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/curl_chat_client_for_multimodal.md",
+      "depth": 1,
+      "word_count": 281,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/curl_completion_client.html",
+      "title": "Curl Completion Client — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/curl_completion_client.md",
+      "depth": 1,
+      "word_count": 48,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/curl_responses_client.html",
+      "title": "Curl Responses Client — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/curl_responses_client.md",
+      "depth": 1,
+      "word_count": 45,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/deepseek_r1_reasoning_parser.html",
+      "title": "Deepseek R1 Reasoning Parser — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/deepseek_r1_reasoning_parser.md",
+      "depth": 1,
+      "word_count": 83,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/openai_chat_client.html",
+      "title": "OpenAI Chat Client — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/openai_chat_client.md",
+      "depth": 1,
+      "word_count": 66,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/openai_chat_client_for_multimodal.html",
+      "title": "OpenAI Chat Client for Multimodal — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/openai_chat_client_for_multimodal.md",
+      "depth": 1,
+      "word_count": 397,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/openai_completion_client.html",
+      "title": "OpenAI Completion Client — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/openai_completion_client.md",
+      "depth": 1,
+      "word_count": 45,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/openai_completion_client_for_lora.html",
+      "title": "Openai Completion Client For Lora — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/openai_completion_client_for_lora.md",
+      "depth": 1,
+      "word_count": 93,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/openai_completion_client_json_schema.html",
+      "title": "OpenAI Completion Client with JSON Schema — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/openai_completion_client_json_schema.md",
+      "depth": 1,
+      "word_count": 175,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/openai_responses_client.html",
+      "title": "OpenAI Responses Client — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/openai_responses_client.md",
+      "depth": 1,
+      "word_count": 45,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/prometheus_metrics.html",
+      "title": "Prometheus Metrics — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/prometheus_metrics.md",
+      "depth": 1,
+      "word_count": 616,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/dynamo_k8s_example.html",
+      "title": "Dynamo K8s Example — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/dynamo_k8s_example.md",
+      "depth": 1,
+      "word_count": 44,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/deployment-guide/index.html",
+      "title": "Model Recipes — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/deployment-guide/index.md",
+      "depth": 1,
+      "word_count": 3690,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/deployment-guide/deployment-guide-for-deepseek-r1-on-trtllm.html",
+      "title": "Deployment Guide for DeepSeek R1 on TensorRT LLM - Blackwell & Hopper Hardware — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/deployment-guide/deployment-guide-for-deepseek-r1-on-trtllm.md",
+      "depth": 1,
+      "word_count": 3952,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/deployment-guide/deployment-guide-for-llama3.3-70b-on-trtllm.html",
+      "title": "Deployment Guide for Llama3.3 70B on TensorRT LLM - Blackwell & Hopper Hardware — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/deployment-guide/deployment-guide-for-llama3.3-70b-on-trtllm.md",
+      "depth": 1,
+      "word_count": 1894,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/deployment-guide/deployment-guide-for-llama4-scout-on-trtllm.html",
+      "title": "Deployment Guide for Llama4 Scout 17B on TensorRT LLM - Blackwell & Hopper Hardware — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/deployment-guide/deployment-guide-for-llama4-scout-on-trtllm.md",
+      "depth": 1,
+      "word_count": 1829,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/deployment-guide/deployment-guide-for-gpt-oss-on-trtllm.html",
+      "title": "Deployment Guide for GPT-OSS on TensorRT-LLM - Blackwell Hardware — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/deployment-guide/deployment-guide-for-gpt-oss-on-trtllm.md",
+      "depth": 1,
+      "word_count": 3945,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/deployment-guide/deployment-guide-for-qwen3-on-trtllm.html",
+      "title": "Deployment Guide for Qwen3 on TensorRT LLM - Blackwell & Hopper Hardware — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/deployment-guide/deployment-guide-for-qwen3-on-trtllm.md",
+      "depth": 1,
+      "word_count": 1097,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/deployment-guide/deployment-guide-for-qwen3-next-on-trtllm.html",
+      "title": "Deployment Guide for Qwen3 Next on TensorRT LLM - Blackwell & Hopper Hardware — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/deployment-guide/deployment-guide-for-qwen3-next-on-trtllm.md",
+      "depth": 1,
+      "word_count": 1684,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/deployment-guide/deployment-guide-for-kimi-k2-thinking-on-trtllm.html",
+      "title": "Deployment Guide for Kimi K2 Thinking on TensorRT LLM - Blackwell — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/deployment-guide/deployment-guide-for-kimi-k2-thinking-on-trtllm.md",
+      "depth": 1,
+      "word_count": 1281,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/deployment-guide/configuring-cpu-affinity.html",
+      "title": "CPU Affinity configuration in TensorRT LLM — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/deployment-guide/configuring-cpu-affinity.md",
+      "depth": 1,
+      "word_count": 1119,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/models/supported-models.html",
+      "title": "Supported Models — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/models/supported-models.md",
+      "depth": 1,
+      "word_count": 1004,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/models/visual-generation.html",
+      "title": "Visual Generation (Prototype) — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/models/visual-generation.md",
+      "depth": 1,
+      "word_count": 1173,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/models/adding-new-model.html",
+      "title": "Adding a New Model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/models/adding-new-model.md",
+      "depth": 1,
+      "word_count": 896,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/commands/trtllm-bench.html",
+      "title": "trtllm-bench — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/commands/trtllm-bench.md",
+      "depth": 1,
+      "word_count": 1314,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/commands/trtllm-eval.html",
+      "title": "trtllm-eval — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/commands/trtllm-eval.md",
+      "depth": 1,
+      "word_count": 1545,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/commands/trtllm-serve/trtllm-serve.html",
+      "title": "trtllm-serve — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/commands/trtllm-serve/trtllm-serve.md",
+      "depth": 1,
+      "word_count": 2350,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/commands/trtllm-serve/run-benchmark-with-trtllm-serve.html",
+      "title": "Run benchmarking with trtllm-serve — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/commands/trtllm-serve/run-benchmark-with-trtllm-serve.md",
+      "depth": 1,
+      "word_count": 1385,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/llm-api/index.html",
+      "title": "LLM API Introduction — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/llm-api/index.md",
+      "depth": 1,
+      "word_count": 795,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/llm-api/reference.html",
+      "title": "API Reference — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/llm-api/reference.md",
+      "depth": 1,
+      "word_count": 67766,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/feature-combination-matrix.html",
+      "title": "Feature Combination Matrix — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/feature-combination-matrix.md",
+      "depth": 1,
+      "word_count": 742,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/attention.html",
+      "title": "Multi-Head, Multi-Query, and Group-Query Attention — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/attention.md",
+      "depth": 1,
+      "word_count": 3072,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/disagg-serving.html",
+      "title": "Disaggregated Serving — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/disagg-serving.md",
+      "depth": 1,
+      "word_count": 2754,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/kvcache.html",
+      "title": "KV Cache System — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/kvcache.md",
+      "depth": 1,
+      "word_count": 1776,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/long-sequence.html",
+      "title": "Long Sequences — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/long-sequence.md",
+      "depth": 1,
+      "word_count": 658,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/lora.html",
+      "title": "LoRA (Low-Rank Adaptation) — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/lora.md",
+      "depth": 1,
+      "word_count": 530,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/multi-modality.html",
+      "title": "Multimodal Support in TensorRT LLM — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/multi-modality.md",
+      "depth": 1,
+      "word_count": 339,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/overlap-scheduler.html",
+      "title": "Overlap Scheduler — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/overlap-scheduler.md",
+      "depth": 1,
+      "word_count": 164,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/paged-attention-ifb-scheduler.html",
+      "title": "Paged Attention, IFB, and Request Scheduling — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/paged-attention-ifb-scheduler.md",
+      "depth": 1,
+      "word_count": 1774,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/parallel-strategy.html",
+      "title": "Parallelism in TensorRT LLM — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/parallel-strategy.md",
+      "depth": 1,
+      "word_count": 977,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/quantization.html",
+      "title": "Quantization — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/quantization.md",
+      "depth": 1,
+      "word_count": 1150,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/sampling.html",
+      "title": "Sampling — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/sampling.md",
+      "depth": 1,
+      "word_count": 745,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/additional-outputs.html",
+      "title": "Additional Outputs — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/additional-outputs.md",
+      "depth": 1,
+      "word_count": 395,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/guided-decoding.html",
+      "title": "Guided Decoding — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/guided-decoding.md",
+      "depth": 1,
+      "word_count": 1858,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/speculative-decoding.html",
+      "title": "Speculative Decoding — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/speculative-decoding.md",
+      "depth": 1,
+      "word_count": 1229,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/checkpoint-loading.html",
+      "title": "Checkpoint Loading — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/checkpoint-loading.md",
+      "depth": 1,
+      "word_count": 1255,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/auto_deploy/auto-deploy.html",
+      "title": "AutoDeploy (Beta) — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/auto_deploy/auto-deploy.md",
+      "depth": 1,
+      "word_count": 506,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/ray-orchestrator.html",
+      "title": "Ray Orchestrator (Prototype) — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/ray-orchestrator.md",
+      "depth": 1,
+      "word_count": 269,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/torch_compile_and_piecewise_cuda_graph.html",
+      "title": "Torch Compile & Piecewise CUDA Graph — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/torch_compile_and_piecewise_cuda_graph.md",
+      "depth": 1,
+      "word_count": 2669,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/helix.html",
+      "title": "Helix Parallelism — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/helix.md",
+      "depth": 1,
+      "word_count": 419,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/kv-cache-connector.html",
+      "title": "KV Cache Connector — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/kv-cache-connector.md",
+      "depth": 1,
+      "word_count": 910,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/sparse-attention.html",
+      "title": "Sparse Attention — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/sparse-attention.md",
+      "depth": 1,
+      "word_count": 2758,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/developer-guide/overview.html",
+      "title": "Architecture Overview — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/developer-guide/overview.md",
+      "depth": 1,
+      "word_count": 699,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/developer-guide/perf-analysis.html",
+      "title": "Performance Analysis — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/developer-guide/perf-analysis.md",
+      "depth": 1,
+      "word_count": 985,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/developer-guide/perf-benchmarking.html",
+      "title": "TensorRT LLM Benchmarking — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/developer-guide/perf-benchmarking.md",
+      "depth": 1,
+      "word_count": 2287,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/developer-guide/ci-overview.html",
+      "title": "Continuous Integration Overview — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/developer-guide/ci-overview.md",
+      "depth": 1,
+      "word_count": 784,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/developer-guide/dev-containers.html",
+      "title": "Using Dev Containers — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/developer-guide/dev-containers.md",
+      "depth": 1,
+      "word_count": 516,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/developer-guide/api-change.html",
+      "title": "LLM API Change Guide — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/developer-guide/api-change.md",
+      "depth": 1,
+      "word_count": 1117,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/developer-guide/kv-transfer.html",
+      "title": "Introduction to KV Cache Transmission — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/developer-guide/kv-transfer.md",
+      "depth": 1,
+      "word_count": 615,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/py-modindex.html",
+      "title": "Python Module Index — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/py-modindex.md",
+      "depth": 1,
+      "word_count": 91,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/llmapi/llm.html",
+      "title": "tensorrt_llm.llmapi.llm — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/llmapi/llm.md",
+      "depth": 2,
+      "word_count": 4632,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/_torch/async_llm.html",
+      "title": "tensorrt_llm._torch.async_llm — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/torch/async_llm.md",
+      "depth": 2,
+      "word_count": 419,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/llmapi/visual_gen.html",
+      "title": "tensorrt_llm.llmapi.visual_gen — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/llmapi/visual_gen.md",
+      "depth": 2,
+      "word_count": 1555,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/llmapi/mm_encoder.html",
+      "title": "tensorrt_llm.llmapi.mm_encoder — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/llmapi/mm_encoder.md",
+      "depth": 2,
+      "word_count": 486,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/executor/result.html",
+      "title": "tensorrt_llm.executor.result — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/executor/result.md",
+      "depth": 2,
+      "word_count": 3415,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/sampling_params.html",
+      "title": "tensorrt_llm.sampling_params — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/sampling_params.md",
+      "depth": 2,
+      "word_count": 3435,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/disaggregated_params.html",
+      "title": "tensorrt_llm.disaggregated_params — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/disaggregated_params.md",
+      "depth": 2,
+      "word_count": 535,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/llmapi/llm_args.html",
+      "title": "tensorrt_llm.llmapi.llm_args — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/llmapi/llm_args.md",
+      "depth": 2,
+      "word_count": 12701,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/builder.html",
+      "title": "tensorrt_llm.builder — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/builder.md",
+      "depth": 2,
+      "word_count": 4441,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/modeling_utils.html",
+      "title": "tensorrt_llm.models.modeling_utils — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/modeling_utils.md",
+      "depth": 2,
+      "word_count": 5388,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/quantization/mode.html",
+      "title": "tensorrt_llm.quantization.mode — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/quantization/mode.md",
+      "depth": 2,
+      "word_count": 1311,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/llmapi/build_cache.html",
+      "title": "tensorrt_llm.llmapi.build_cache — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/llmapi/build_cache.md",
+      "depth": 2,
+      "word_count": 1042,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/executor/utils.html",
+      "title": "tensorrt_llm.executor.utils — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/executor/utils.md",
+      "depth": 2,
+      "word_count": 549,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/llmapi/mpi_session.html",
+      "title": "tensorrt_llm.llmapi.mpi_session — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/llmapi/mpi_session.md",
+      "depth": 2,
+      "word_count": 1948,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/executor/request.html",
+      "title": "tensorrt_llm.executor.request — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/executor/request.md",
+      "depth": 2,
+      "word_count": 382,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/torch/features/overlap_scheduler.html",
+      "title": "Overlap Scheduler — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/torch/features/overlap_scheduler.md",
+      "depth": 2,
+      "word_count": 107,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/kvcacheretentionconfig.html",
+      "title": "How to Change Block Priorities — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/kvcacheretentionconfig.md",
+      "depth": 2,
+      "word_count": 314,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/examples/kvcacheconfig.html",
+      "title": "How to Change KV Cache Behavior — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/examples/kvcacheconfig.md",
+      "depth": 2,
+      "word_count": 201,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/auto_deploy/support_matrix.html",
+      "title": "Support Matrix — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/auto_deploy/support_matrix.md",
+      "depth": 2,
+      "word_count": 480,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/auto_deploy/advanced/example_run.html",
+      "title": "Example Run Script — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/auto_deploy/advanced/example_run.md",
+      "depth": 2,
+      "word_count": 294,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/auto_deploy/advanced/workflow.html",
+      "title": "Incorporating auto_deploy into your own workflow — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/auto_deploy/advanced/workflow.md",
+      "depth": 2,
+      "word_count": 118,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/auto_deploy/advanced/expert_configurations.html",
+      "title": "Expert Configuration of LLM API — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/auto_deploy/advanced/expert_configurations.md",
+      "depth": 2,
+      "word_count": 731,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/auto_deploy/advanced/benchmarking_with_trtllm_bench.html",
+      "title": "Benchmarking with trtllm-bench — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/auto_deploy/advanced/benchmarking_with_trtllm_bench.md",
+      "depth": 2,
+      "word_count": 414,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/auto_deploy/advanced/kv_cache_architecture.html",
+      "title": "KV Cache Architecture — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/auto_deploy/advanced/kv_cache_architecture.md",
+      "depth": 2,
+      "word_count": 818,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/auto_deploy/advanced/export_onnx.html",
+      "title": "Export ONNX for EdgeLLM — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/auto_deploy/advanced/export_onnx.md",
+      "depth": 2,
+      "word_count": 514,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/features/auto_deploy/advanced/testing_strategy.html",
+      "title": "Testing Strategy — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/features/auto_deploy/advanced/testing_strategy.md",
+      "depth": 2,
+      "word_count": 900,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/developer-guide/perf-overview.html",
+      "title": "Overview — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/developer-guide/perf-overview.md",
+      "depth": 2,
+      "word_count": 2212,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/index.html",
+      "title": "Overview: module code — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/index.md",
+      "depth": 3,
+      "word_count": 82,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/functional.html",
+      "title": "tensorrt_llm.functional — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/functional.md",
+      "depth": 4,
+      "word_count": 28739,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/layers/activation.html",
+      "title": "tensorrt_llm.layers.activation — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/layers/activation.md",
+      "depth": 4,
+      "word_count": 133,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/layers/attention.html",
+      "title": "tensorrt_llm.layers.attention — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/layers/attention.md",
+      "depth": 4,
+      "word_count": 7523,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/layers/cast.html",
+      "title": "tensorrt_llm.layers.cast — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/layers/cast.md",
+      "depth": 4,
+      "word_count": 157,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/layers/conv.html",
+      "title": "tensorrt_llm.layers.conv — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/layers/conv.md",
+      "depth": 4,
+      "word_count": 926,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/layers/embedding.html",
+      "title": "tensorrt_llm.layers.embedding — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/layers/embedding.md",
+      "depth": 4,
+      "word_count": 2154,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/layers/linear.html",
+      "title": "tensorrt_llm.layers.linear — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/layers/linear.md",
+      "depth": 4,
+      "word_count": 1682,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/layers/mlp.html",
+      "title": "tensorrt_llm.layers.mlp — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/layers/mlp.md",
+      "depth": 4,
+      "word_count": 1400,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/layers/normalization.html",
+      "title": "tensorrt_llm.layers.normalization — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/layers/normalization.md",
+      "depth": 4,
+      "word_count": 1020,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/layers/pooling.html",
+      "title": "tensorrt_llm.layers.pooling — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/layers/pooling.md",
+      "depth": 4,
+      "word_count": 177,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/baichuan/model.html",
+      "title": "tensorrt_llm.models.baichuan.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/baichuan/model.md",
+      "depth": 4,
+      "word_count": 576,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/bert/model.html",
+      "title": "tensorrt_llm.models.bert.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/bert/model.md",
+      "depth": 4,
+      "word_count": 1379,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/bloom/model.html",
+      "title": "tensorrt_llm.models.bloom.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/bloom/model.md",
+      "depth": 4,
+      "word_count": 372,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/chatglm/config.html",
+      "title": "tensorrt_llm.models.chatglm.config — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/chatglm/config.md",
+      "depth": 4,
+      "word_count": 549,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/chatglm/model.html",
+      "title": "tensorrt_llm.models.chatglm.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/chatglm/model.md",
+      "depth": 4,
+      "word_count": 867,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/clip/model.html",
+      "title": "tensorrt_llm.models.clip.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/clip/model.md",
+      "depth": 4,
+      "word_count": 537,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/cogvlm/config.html",
+      "title": "tensorrt_llm.models.cogvlm.config — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/cogvlm/config.md",
+      "depth": 4,
+      "word_count": 185,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/cogvlm/model.html",
+      "title": "tensorrt_llm.models.cogvlm.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/cogvlm/model.md",
+      "depth": 4,
+      "word_count": 702,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/commandr/model.html",
+      "title": "tensorrt_llm.models.commandr.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/commandr/model.md",
+      "depth": 4,
+      "word_count": 361,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/dbrx/config.html",
+      "title": "tensorrt_llm.models.dbrx.config — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/dbrx/config.md",
+      "depth": 4,
+      "word_count": 226,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/dbrx/model.html",
+      "title": "tensorrt_llm.models.dbrx.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/dbrx/model.md",
+      "depth": 4,
+      "word_count": 402,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/deepseek_v1/model.html",
+      "title": "tensorrt_llm.models.deepseek_v1.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/deepseek_v1/model.md",
+      "depth": 4,
+      "word_count": 660,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/deepseek_v2/model.html",
+      "title": "tensorrt_llm.models.deepseek_v2.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/deepseek_v2/model.md",
+      "depth": 4,
+      "word_count": 926,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/dit/model.html",
+      "title": "tensorrt_llm.models.dit.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/dit/model.md",
+      "depth": 4,
+      "word_count": 1144,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/eagle/model.html",
+      "title": "tensorrt_llm.models.eagle.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/eagle/model.md",
+      "depth": 4,
+      "word_count": 3970,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/enc_dec/model.html",
+      "title": "tensorrt_llm.models.enc_dec.model — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/enc_dec/model.md",
+      "depth": 4,
+      "word_count": 4821,
+      "removed_noise_lines": 0
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/models/falcon/config.html",
+      "title": "tensorrt_llm.models.falcon.config — TensorRT LLM",
+      "path": "pages/tensorrt-llm/1.3.0rc7/modules/tensorrt_llm/models/falcon/config.md",
+      "depth": 4,
+      "word_count": 375,
+      "removed_noise_lines": 0
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_downloads/c9a794b048df873be4fe7199c4f4d3f4/qwen3.5_moe_400b.yaml",
+      "error": "unsupported content type: text/yaml"
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_downloads/41e9250c30c4fc3935a9d816faaf72e4/glm-4.7-flash.yaml",
+      "error": "unsupported content type: text/yaml"
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_downloads/289baa7eb9a76c4944f3e2800f51f4c4/llm_kv_cache_offloading.py",
+      "error": "unsupported content type: application/octet-stream"
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_downloads/b509390ba70e52fabb10dbd9d15d5118/attention.py",
+      "error": "unsupported content type: application/octet-stream"
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_downloads/24a8176e5dad1c0d69d446f5fd6515b0/reporting.py",
+      "error": "unsupported content type: application/octet-stream"
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_downloads/071b23b9a0344fabc6867e005e746574/statistics.py",
+      "error": "unsupported content type: application/octet-stream"
+    },
+    {
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.3.0rc7/_modules/tensorrt_llm/bindings/executor.html",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}
