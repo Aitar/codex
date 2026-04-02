@@ -1,6 +1,7 @@
 .DS_Store
 
 # 忽略临时文件
+.idea
 archived_sessions/
 tmp/
 .tmp/
