@@ -22,6 +22,61 @@ ensure_cmd() {
   fi
 }
 
+run_install() {
+  if [ "${EUID:-$(id -u)}" -eq 0 ]; then
+    "$@"
+  elif command -v sudo >/dev/null 2>&1; then
+    sudo "$@"
+  else
+    warn "需要管理员权限执行: $*"
+    return 1
+  fi
+}
+
+ensure_npm_available() {
+  if command -v npm >/dev/null 2>&1; then
+    log "检测到 npm: $(npm --version 2>/dev/null || echo unknown)"
+    return 0
+  fi
+
+  warn "未检测到 npm，开始自动安装 node + npm..."
+
+  case "$(uname -s)" in
+    Darwin)
+      if command -v brew >/dev/null 2>&1; then
+        brew install node
+      else
+        warn "macOS 未检测到 Homebrew，无法自动安装 node/npm。"
+        warn "请先安装 Homebrew: https://brew.sh/"
+        return 1
+      fi
+      ;;
+    Linux)
+      if command -v apt-get >/dev/null 2>&1; then
+        run_install apt-get update
+        run_install apt-get install -y nodejs npm
+      elif command -v dnf >/dev/null 2>&1; then
+        run_install dnf install -y nodejs npm
+      elif command -v yum >/dev/null 2>&1; then
+        run_install yum install -y nodejs npm
+      elif command -v pacman >/dev/null 2>&1; then
+        run_install pacman -Sy --noconfirm nodejs npm
+      else
+        warn "未识别的 Linux 包管理器，无法自动安装 node/npm。"
+        return 1
+      fi
+      ;;
+    *)
+      warn "不支持的系统: $(uname -s)"
+      return 1
+      ;;
+  esac
+
+  ensure_cmd npm
+  ensure_cmd node
+  log "node/npm 安装完成: node $(node --version), npm $(npm --version)"
+}
+
 install_codex() {
   if command -v codex >/dev/null 2>&1; then
     log "检测到 codex: $(codex --version 2>/dev/null || echo 'unknown version')"
@@ -77,7 +132,7 @@ MSG
 }
 
 main() {
-  ensure_cmd npm
+  ensure_npm_available
   install_codex
   backup_existing_codex_home
   link_repo_as_codex_home
